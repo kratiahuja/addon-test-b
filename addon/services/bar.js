@@ -1,7 +1,7 @@
 import Service from '@ember/service';
 
 export default class BarService extends Service {
-  barFunc() {
+  barFuncChanged() {
     console.log('Bar function from addon-test-b');
   }
 
